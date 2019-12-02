@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teste @media</title>
+    <style>
+        header {
+            background-color: lightblue;
+            height: 20px;
+            margin: 2px;
+        }
+
+        footer {
+            background-color: lightcoral;
+            height: 20px;
+            margin: 2px;
+            clear: both;
+        }
+
+        .menu {
+            width: 100px;
+            height: 200px;
+            background-color: lightsalmon;
+            margin: 2px;
+            float: left;
+        }
+
+        section {
+            height: 200px;
+            margin: 2px;
+            background-color: lightgreen;
+            width: 1475px;
+            float: left;
+        }
+
+        @media screen and (max-width: 375px){
+            .menu{width: 50px;
+            height: 100px;}
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <div class="menu">menu</div>
+    <section>coloque aqui o conteudo</section>
+
+
+    <footer>footer</footer>
+</body>
+
+</html>
